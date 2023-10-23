@@ -26,7 +26,7 @@ const getPositiveIntegerNumber = (input) => {
   let result = '';
 
   if (!Number.isNaN(input)) {
-    input = input.toString;
+    input = input.toString();
 
     for (let i = 0; i <= input.length - 1; i++) {
       const resultItem = parseInt(input[i], 10);
